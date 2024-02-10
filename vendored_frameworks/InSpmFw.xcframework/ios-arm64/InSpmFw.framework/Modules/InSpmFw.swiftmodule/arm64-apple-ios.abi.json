@@ -1,0 +1,99 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InSpmFw",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Randomizer",
+        "printedName": "Randomizer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Randomizer",
+                "printedName": "InSpmFw.Randomizer",
+                "usr": "s:7InSpmFw10RandomizerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7InSpmFw10RandomizerCACycfc",
+            "mangledName": "$s7InSpmFw10RandomizerCACycfc",
+            "moduleName": "InSpmFw",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "givMeResult",
+            "printedName": "givMeResult(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7InSpmFw10RandomizerC11givMeResult3forS2f_tF",
+            "mangledName": "$s7InSpmFw10RandomizerC11givMeResult3forS2f_tF",
+            "moduleName": "InSpmFw",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7InSpmFw10RandomizerC",
+        "mangledName": "$s7InSpmFw10RandomizerC",
+        "moduleName": "InSpmFw",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/InSpmFw\/InSpmFw\/InSpmFw\/Randomizer.swift",
+      "kind": "FloatLiteral",
+      "offset": 443,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/sasa\/Documents\/workspace\/mobile\/InSpmFw\/InSpmFw\/InSpmFw\/Randomizer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 450,
+      "length": 3,
+      "value": "159"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RandomMultiplier'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RandomMultiplier.'
+  s.summary          = 'Just a multiplier'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'Enter any number and you will get random multiplied result'
                        DESC
 
   s.homepage         = 'https://github.com/saxija/RandomMultiplier'
@@ -28,10 +28,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/saxija/RandomMultiplier.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'RandomMultiplier/Classes/**/*'
-  
+#  s.source_files = 'RandomMultiplier/Classes/**/*'
+  s.vendored_frameworks = 'vendored_frameworks/InSpmFw.xcframework'
+  s.preserve_paths = 'vendored_frameworks/**'
+  s.ios.deployment_target = '12.0'
+  s.platforms = {
+    "ios": "12.0"
+  }
   # s.resource_bundles = {
   #   'RandomMultiplier' => ['RandomMultiplier/Assets/*.png']
   # }

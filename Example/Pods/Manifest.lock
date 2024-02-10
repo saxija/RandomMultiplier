@@ -1,0 +1,16 @@
+PODS:
+  - RandomMultiplier (0.1.0)
+
+DEPENDENCIES:
+  - RandomMultiplier (from `../`)
+
+EXTERNAL SOURCES:
+  RandomMultiplier:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RandomMultiplier: 81e516be95b8380a7c8ae17a46607f65d75baab7
+
+PODFILE CHECKSUM: ecfe3342b1bb5dbfe113ea522d521fcad9c5eeee
+
+COCOAPODS: 1.15.2
