@@ -101,6 +101,7 @@
 		04032076E13D4C7B44109C76661FB9F4 /* RandomMultiplier */ = {
 			isa = PBXGroup;
 			children = (
+				5AF1407B2B784D4D004F9DC0 /* Source */,
 				E0A5C28483A283BD32B81B6DBE87F6DF /* Pod */,
 				B844F85CC44EFA9FB9B40426076F16C8 /* Support Files */,
 			);
@@ -148,6 +149,13 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5AF1407B2B784D4D004F9DC0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		7A65C087EE56056EFA0342F55CF5646D /* Pods-RandomMultiplier_Tests */ = {
